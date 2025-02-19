@@ -1,0 +1,354 @@
+/* 
+    Author: quangn21
+    Theme: Food Order
+    Version 1.0
+*/
+
+/* CSS all*/ 
+*{             
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;   /* top, bot = 0; left, right = auto*/
+    padding: 1%;
+}
+
+.pos-relative{
+    position: relative;
+}
+
+.img-responsive{
+    width: 100%;
+    transition: transform 0.2s ease-in-out;
+}
+.img-responsive:hover{
+    transform: scale(1.02); /* Phóng to ảnh lên 1.2 lần */
+}
+.img-curve{
+    border-radius: 15px;
+}
+.img-square{
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.text-right{    /* Căn chữ bên phải*/
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+}
+
+.clearfix{      /*Xóa floating*/
+    clear:both;
+    float: none;
+}
+
+a{              /* đổi màu đen cho tất cả thẻ a*/
+    color: #ff6b81;
+    text-decoration: none;
+}
+a:hover{
+    color: #ff4760;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+.btn-primary:hover{
+    background-color: #ff4760;
+    color: white;
+}
+
+h2{
+    color: #2f352f;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%); /* Dịch ngược lại 50% chiều rộng của chính nó */
+    text-align: center;
+    width: 80%;
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+.success{
+    color: #2ed573;
+}
+.error{
+    color: #ff4757;
+}
+
+.blur-bg{
+    background: rgba(0, 0, 0, 0.5); /* Màu nền tối */
+    backdrop-filter: blur(5px); /* Làm mờ nền */
+}
+
+.curve-box{
+    border-radius: 6px;
+}
+
+.width-auto{
+    width: auto;
+}
+
+
+/* CSS cho Navbar */
+.logo{
+    height: auto;
+    float: left;
+}
+.logo-a{
+    float: left;
+}
+
+.menu{
+    line-height: 60px;
+}
+.menu ul{
+    list-style-type: none; /* Bỏ list style */
+    top: 50%;
+    transform: translateY(20%);
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+
+/* CSS cho Food Search */
+.food-search{
+    width: 100%;
+    display: flex;
+    position: relative;
+    padding: 0 0;
+}
+
+.food-search input[type="search"]{          /* thanh search*/
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;    /*rem là đơn vị đo kích thước phông chữ, tương ứng với kích thước phông chữ của phần tử gốc (root element), thường là thẻ <html>. Dùng rem giúp dễ kiểm soát kích thước chữ trên toàn trang web*/
+    border: none;
+    border-radius: 5px;
+}
+
+.search-bar{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.bgVideo{
+    width: 100%;
+    object-fit: cover;
+    left: 0%;
+    top: 0%;
+}
+
+
+
+/* CSS cho Categories */
+.categories{
+    padding: 4% 0;
+}
+
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2.5%;
+}
+
+
+/* CSS cho Food Menu */
+.food-menu{
+    background-color: #ececec;
+    padding: 4% 0;
+}
+.food-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+.food-menu-img{
+    width: 20%;
+    float: left;
+}
+.food-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 6%;
+}
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.food-detail{
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+
+/* CSS cho Social */
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+
+/* for Order Section */
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+.order-page-bgImg{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+
+/* CSS cho tablet (Responsive) */
+@media only screen and (max-width: 768px){
+    .logo {
+        width: 60%;
+        height: 5%;
+        float: none;
+        margin: 1% auto;
+        justify-content: center;
+        display: flex;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+    .menu ul li{
+        text-align: center;
+        margin: 5%;
+    }
+
+    .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 5%;
+    }
+
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+
+    .food-search{
+        padding: 10% 0;
+    }
+
+    .categories{
+        padding: 20% 0;
+    }
+
+    h2{
+        margin-bottom: 5% auto;
+    }
+
+    .box-3{
+        width: 90%;
+        margin: 4% auto;
+        margin-left: 5%;
+    }
+
+    .food-menu{
+        padding: 20% 0;
+    }
+
+    .food-menu-box{
+        width: 95%;
+        padding: 5%;
+        margin-bottom: 5%;
+        margin-left: -2%;
+    }
+
+    .social{
+        padding: 5% 0;
+    }
+
+    .order{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .menu ul{
+        text-align: center;
+    }
+    .menu ul li{
+        text-align: center;
+        margin: 2%;
+    }
+}
+
+@media only screen and (max-width: 410px){
+    .menu ul{
+        text-align: center;
+    }
+    .menu ul li{
+        text-align: center;
+        margin: 1%;
+    }
+}

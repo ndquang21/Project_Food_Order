@@ -1,0 +1,28 @@
+    <!-- Bắt đầu Social Media Section -->
+    <section class="social">
+        <div class="container text-center">
+            <ul>
+                <li>
+                    <a href="#"><img src="https://img.icons8.com/fluent/50/000000/facebook-new.png"/></a>
+                </li>
+                <li>
+                    <a href="#"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
+                </li>
+                <li>
+                    <a href="#"><img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciICB2aWV3Qm94PSIwIDAgNDggNDgiIHdpZHRoPSI1MHB4IiBoZWlnaHQ9IjUwcHgiIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjMjEyMTIxIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMC45MDQsNmgyNi4xOTFDMzkuODA0LDYsNDIsOC4xOTYsNDIsMTAuOTA0djI2LjE5MSBDNDIsMzkuODA0LDM5LjgwNCw0MiwzNy4wOTYsNDJIMTAuOTA0QzguMTk2LDQyLDYsMzkuODA0LDYsMzcuMDk2VjEwLjkwNEM2LDguMTk2LDguMTk2LDYsMTAuOTA0LDZ6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiLz48cGF0aCBmaWxsPSIjZWM0MDdhIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yOS4yMDgsMjAuNjA3YzEuNTc2LDEuMTI2LDMuNTA3LDEuNzg4LDUuNTkyLDEuNzg4di00LjAxMSBjLTAuMzk1LDAtMC43ODgtMC4wNDEtMS4xNzQtMC4xMjN2My4xNTdjLTIuMDg1LDAtNC4wMTUtMC42NjMtNS41OTItMS43ODh2OC4xODRjMCw0LjA5NC0zLjMyMSw3LjQxMy03LjQxNyw3LjQxMyBjLTEuNTI4LDAtMi45NDktMC40NjItNC4xMjktMS4yNTRjMS4zNDcsMS4zNzYsMy4yMjUsMi4yMyw1LjMwMywyLjIzYzQuMDk2LDAsNy40MTctMy4zMTksNy40MTctNy40MTNMMjkuMjA4LDIwLjYwN0wyOS4yMDgsMjAuNjA3IHogTTMwLjY1NywxNi41NjFjLTAuODA1LTAuODc5LTEuMzM0LTIuMDE2LTEuNDQ5LTMuMjczdi0wLjUxNmgtMS4xMTNDMjguMzc1LDE0LjM2OSwyOS4zMzEsMTUuNzM0LDMwLjY1NywxNi41NjFMMzAuNjU3LDE2LjU2MXogTTE5LjA3OSwzMC44MzJjLTAuNDUtMC41OS0wLjY5My0xLjMxMS0wLjY5Mi0yLjA1M2MwLTEuODczLDEuNTE5LTMuMzkxLDMuMzkzLTMuMzkxYzAuMzQ5LDAsMC42OTYsMC4wNTMsMS4wMjksMC4xNTl2LTQuMSBjLTAuMzg5LTAuMDUzLTAuNzgxLTAuMDc2LTEuMTc0LTAuMDY4djMuMTkxYy0wLjMzMy0wLjEwNi0wLjY4LTAuMTU5LTEuMDMtMC4xNTljLTEuODc0LDAtMy4zOTMsMS41MTgtMy4zOTMsMy4zOTEgQzE3LjIxMywyOS4xMjcsMTcuOTcyLDMwLjI3NCwxOS4wNzksMzAuODMyeiIgY2xpcC1ydWxlPSJldmVub2RkIi8+PHBhdGggZmlsbD0iI2ZmZiIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMjguMDM0LDE5LjYzYzEuNTc2LDEuMTI2LDMuNTA3LDEuNzg4LDUuNTkyLDEuNzg4di0zLjE1NyBjLTEuMTY0LTAuMjQ4LTIuMTk0LTAuODU2LTIuOTY5LTEuNzAxYy0xLjMyNi0wLjgyNy0yLjI4MS0yLjE5MS0yLjU2MS0zLjc4OGgtMi45MjN2MTYuMDE4Yy0wLjAwNywxLjg2Ny0xLjUyMywzLjM3OS0zLjM5MywzLjM3OSBjLTEuMTAyLDAtMi4wODEtMC41MjUtMi43MDEtMS4zMzhjLTEuMTA3LTAuNTU4LTEuODY2LTEuNzA1LTEuODY2LTMuMDI5YzAtMS44NzMsMS41MTktMy4zOTEsMy4zOTMtMy4zOTEgYzAuMzU5LDAsMC43MDUsMC4wNTYsMS4wMywwLjE1OVYyMS4zOGMtNC4wMjQsMC4wODMtNy4yNiwzLjM2OS03LjI2LDcuNDExYzAsMi4wMTgsMC44MDYsMy44NDcsMi4xMTQsNS4xODMgYzEuMTgsMC43OTIsMi42MDEsMS4yNTQsNC4xMjksMS4yNTRjNC4wOTYsMCw3LjQxNy0zLjMxOSw3LjQxNy03LjQxM0wyOC4wMzQsMTkuNjNMMjguMDM0LDE5LjYzeiIgY2xpcC1ydWxlPSJldmVub2RkIi8+PHBhdGggZmlsbD0iIzgxZDRmYSIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMzMuNjI2LDE4LjI2MnYtMC44NTRjLTEuMDUsMC4wMDItMi4wNzgtMC4yOTItMi45NjktMC44NDggQzMxLjQ0NSwxNy40MjMsMzIuNDgzLDE4LjAxOCwzMy42MjYsMTguMjYyeiBNMjguMDk1LDEyLjc3MmMtMC4wMjctMC4xNTMtMC4wNDctMC4zMDYtMC4wNjEtMC40NjF2LTAuNTE2aC00LjAzNnYxNi4wMTkgYy0wLjAwNiwxLjg2Ny0xLjUyMywzLjM3OS0zLjM5MywzLjM3OWMtMC41NDksMC0xLjA2Ny0wLjEzLTEuNTI2LTAuMzYyYzAuNjIsMC44MTMsMS41OTksMS4zMzgsMi43MDEsMS4zMzggYzEuODcsMCwzLjM4Ni0xLjUxMiwzLjM5My0zLjM3OVYxMi43NzJIMjguMDk1eiBNMjEuNjM1LDIxLjM4di0wLjkwOWMtMC4zMzctMC4wNDYtMC42NzctMC4wNjktMS4wMTgtMC4wNjkgYy00LjA5NywwLTcuNDE3LDMuMzE5LTcuNDE3LDcuNDEzYzAsMi41NjcsMS4zMDUsNC44MjksMy4yODgsNi4xNTljLTEuMzA4LTEuMzM2LTIuMTE0LTMuMTY1LTIuMTE0LTUuMTgzIEMxNC4zNzQsMjQuNzQ5LDE3LjYxMSwyMS40NjMsMjEuNjM1LDIxLjM4eiIgY2xpcC1ydWxlPSJldmVub2RkIi8+PC9zdmc+"/></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- Kết thúc Social Media Section -->
+
+
+    <!-- Bắt đầu Footer Section -->
+    <section class="footer">
+        <div class="container text-center">
+            <p>All rights reserved. Designed by <a href="#">quangn21</a></p>
+        </div>
+    </section>
+    <!-- Kết thúc Footer Section -->
+</body>
+</html>
