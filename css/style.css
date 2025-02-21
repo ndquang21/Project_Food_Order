@@ -344,11 +344,15 @@ fieldset{
 }
 
 @media only screen and (max-width: 410px){
+    .container-menu{
+        width: 100%;
+    }
     .menu ul{
         text-align: center;
+        width: 100%;
     }
     .menu ul li{
         text-align: center;
-        margin: 1%;
+        margin: 2%;
     }
 }

@@ -17,10 +17,10 @@
 <body>
     <!-- Bắt đầu Navbar Section -->
     <section class="navbar">
-        <div class="container">
-            <div>
+        <div class="container container-menu">
+            <div class = "logo">
                 <a href="<?php echo SITE_URL ?>" class="logo-a">
-                    <img src="images/logo.png" alt="Restaurant Logo" class="logo">
+                    <img src="images/logo.png" alt="Restaurant Logo" class="img-responsive">
                 </a>
             </div>
 
