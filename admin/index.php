@@ -142,9 +142,14 @@
                 <div class="clearfix"></div>
                 
                 <br><br><br>
-                <h2>Best Seller</h2>
+                <h2>
+                    <img width="50" height="50" src="https://img.icons8.com/external-vitaliy-gorbachev-flat-vitaly-gorbachev/58/external-fire-emergency-vitaliy-gorbachev-flat-vitaly-gorbachev.png" alt="external-fire-emergency-vitaliy-gorbachev-flat-vitaly-gorbachev"/>
+                    BEST SELLER
+                    <img width="50" height="50" src="https://img.icons8.com/external-vitaliy-gorbachev-flat-vitaly-gorbachev/58/external-fire-emergency-vitaliy-gorbachev-flat-vitaly-gorbachev.png" alt="external-fire-emergency-vitaliy-gorbachev-flat-vitaly-gorbachev"/>
+                </h2>
                 <br>
-        <table class="tbl-full">
+                
+        <table class="tbl-full text-20">
             <tr>
                 <th class="text-center">S.N</th>
                 <th>Food</th>
@@ -172,7 +177,25 @@
                         $total_sold = $row['total_sold'];
                         ?>
                         <tr>
-                            <td class="text-center"><?php echo $sn++; ?></td>
+                            <td class="text-center">
+                                <?php 
+                                    if($sn == 1){
+                                        ?>
+                                        <img width="32" height="32" src="https://img.icons8.com/color/50/gold-medal--v1.png" alt="gold-medal--v1"/>
+                                        <?php $sn++;
+                                    }else if($sn == 2){
+                                        ?>
+                                        <img width="32" height="32" src="https://img.icons8.com/color/50/olympic-medal-silver.png" alt="olympic-medal-silver"/>                                        
+                                        <?php $sn++;
+                                    }else if($sn == 3){
+                                        ?>
+                                        <img width="32" height="32" src="https://img.icons8.com/color/50/olympic-medal-bronze.png" alt="olympic-medal-bronze"/>                                        
+                                        <?php $sn++;
+                                    }else{
+                                        echo $sn++; 
+                                    }
+                                ?>
+                            </td>
                             <td><?php echo $food; ?></td>
                             <td class="text-center"><?php echo $total_sold; ?></td>
                         </tr>

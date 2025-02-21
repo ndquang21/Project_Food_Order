@@ -23,6 +23,9 @@
 .text-center{
     text-align: center;
 }
+.text-20{
+    font-size: 25px;
+}
 
 .clearfix{
     float: none;
