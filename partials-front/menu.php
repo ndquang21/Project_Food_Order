@@ -2,6 +2,11 @@
 
 <!DOCTYPE html>
 <html lang="en">
+<!-- Start EasyChatGPT -->
+<script src="https://widget.easychatgpt.io/dist/widget/main.js"></script>
+<script>window.EasyChatGPT.init({"handle":"quangn21site"})</script>
+<!-- End EasyChatGPT -->
+
 <head>
     <meta charset="UTF-8">
     <!-- Cần thiết để cho website responsive -->
