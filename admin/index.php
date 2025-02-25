@@ -119,7 +119,7 @@
                     ?>
                     <h1><?php echo "$".number_format($total_revenue, "1") ?></h1>
                     <br>
-                    Revenue Generated
+                    Revenue
                 </div>
 
                 <div class="col-4 text-center">
@@ -163,7 +163,7 @@
                 WHERE status = 'Delivered'
                 GROUP BY food
                 ORDER BY total_sold DESC
-                LIMIT 5
+                LIMIT 10
                 ";
                 // Thực hiện truy vấn
                 $res9 = mysqli_query($conn, $sql9);
@@ -181,15 +181,15 @@
                                 <?php 
                                     if($sn == 1){
                                         ?>
-                                        <img width="32" height="32" src="https://img.icons8.com/color/50/gold-medal--v1.png" alt="gold-medal--v1"/>
+                                        <img width="25" height="25" src="https://img.icons8.com/color/50/gold-medal--v1.png" alt="gold-medal--v1"/>
                                         <?php $sn++;
                                     }else if($sn == 2){
                                         ?>
-                                        <img width="32" height="32" src="https://img.icons8.com/color/50/olympic-medal-silver.png" alt="olympic-medal-silver"/>                                        
+                                        <img width="25" height="25" src="https://img.icons8.com/color/50/olympic-medal-silver.png" alt="olympic-medal-silver"/>                                        
                                         <?php $sn++;
                                     }else if($sn == 3){
                                         ?>
-                                        <img width="32" height="32" src="https://img.icons8.com/color/50/olympic-medal-bronze.png" alt="olympic-medal-bronze"/>                                        
+                                        <img width="25" height="25" src="https://img.icons8.com/color/50/olympic-medal-bronze.png" alt="olympic-medal-bronze"/>                                        
                                         <?php $sn++;
                                     }else{
                                         echo $sn++; 

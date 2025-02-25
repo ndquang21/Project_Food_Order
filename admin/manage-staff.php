@@ -49,7 +49,7 @@
 
                 <table class="tbl-full">
                     <tr>
-                        <th>S.N</th>
+                        <th style="padding: 0%">S.N</th>
                         <th>Full name</th>
                         <th>Phone number</th>
                         <th>Age</th>
@@ -106,8 +106,8 @@
                                         <td>$<?php echo $wage ?></td>
 
                                         <td>
-                                            <a href="<?php echo SITE_URL; ?>admin/update-staff.php?id=<?php echo $id ?>" class="btn-secondary">Update Staff</a> <!-- gửi dữ liệu id đến update-staff bằng GET -->
-                                            <a href="<?php echo SITE_URL;?>admin/delete-staff.php?id=<?php echo $id ?>" class="btn-danger">Delete Staff</a>   <!-- gửi dữ liệu id đến delete-staff bằng GET -->
+                                            <a style="display: inline;" href="<?php echo SITE_URL; ?>admin/update-staff.php?id=<?php echo $id ?>" class="btn-secondary">Update</a> <!-- gửi dữ liệu id đến update-staff bằng GET -->
+                                            <a style="display: inline;" href="<?php echo SITE_URL;?>admin/delete-staff.php?id=<?php echo $id ?>" class="btn-danger">Delete</a>   <!-- gửi dữ liệu id đến delete-staff bằng GET -->
                                         </td>
                                     </tr>
 

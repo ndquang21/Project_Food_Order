@@ -44,7 +44,7 @@
 
         <table class="tbl-full">
             <tr>
-                <th>S.N</th>
+                <th style="padding: 0%">S.N</th>
                 <th>Title</th>
                 <th>Price</th>
                 <th>Image</th>
@@ -93,8 +93,8 @@
                             <td><?php echo $featured ?></td>
                             <td><?php echo $active ?></td>
                             <td>
-                                <a href="<?php echo SITE_URL ?>/admin/update-food.php?id=<?php echo $id ?>" class="btn-secondary">Update Food</a>
-                                <a href="<?php echo SITE_URL ?>/admin/delete-food.php?id=<?php echo $id ?>&image_name=<?php echo $image_name ?>" class="btn-danger">Delete Food</a>
+                                <a href="<?php echo SITE_URL ?>/admin/update-food.php?id=<?php echo $id ?>" class="btn-secondary">Update</a>
+                                <a href="<?php echo SITE_URL ?>/admin/delete-food.php?id=<?php echo $id ?>&image_name=<?php echo $image_name ?>" class="btn-danger">Delete</a>
                             </td>
                         </tr>
                         <?php

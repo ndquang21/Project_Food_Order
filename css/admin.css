@@ -41,17 +41,17 @@
 
 table tr th{
     border-bottom: 1px solid black;
-    padding: 1%;
+    padding: 1% 0.5%;
     text-align: left;
 }
 
 table tr td{
-    padding: 1%;
+    padding: 1% 0.5%;
 }
 
 .btn-primary{
     background-color: #1e90ff;
-    padding: 1% ;
+    padding: 10px ;
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -64,7 +64,7 @@ table tr td{
 
 .btn-secondary{
     background-color: #7bed9f;
-    padding: 2%;
+    padding: 10px;
     color: black;
     text-decoration: none;
     font-weight: bold;
@@ -76,7 +76,7 @@ table tr td{
 
 .btn-danger{
     background-color: #ff6b81;
-    padding: 2%;
+    padding: 10px;
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -169,4 +169,17 @@ table tr td{
     height: 100vh;
     object-fit: cover; /* Đảm bảo video che phủ toàn bộ màn hình */
     z-index: -1; /* Đặt video phía sau nội dung */
+}
+
+
+
+
+
+
+/* CSS cho tablet (Responsive) */
+@media only screen and (max-width: 820px){
+.wrapper{
+    width: 95%;
+    padding: 10px;
+}
 }

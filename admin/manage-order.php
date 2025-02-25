@@ -16,7 +16,7 @@
         <br>
         <table class="tbl-full">
             <tr>
-                <th>S.N</th>
+                <th style="padding: 0%">S.N</th>
                 <th>Food</th>
                 <th>Price</th>
                 <th>Quantity</th>
@@ -80,7 +80,7 @@
                             <td><?php echo $customer_email; ?></td>
                             <td><?php echo $customer_address; ?></td>
                             <td>
-                                <a href="<?php echo SITE_URL ?>admin/update-order.php?id=<?php echo $id ?>" class="btn-secondary">Update Order</a>
+                                <a href="<?php echo SITE_URL ?>admin/update-order.php?id=<?php echo $id ?>" class="btn-secondary">Update</a>
                             </td>
                         </tr>
                         <?php
