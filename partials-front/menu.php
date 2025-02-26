@@ -25,7 +25,7 @@
         <div class="container container-menu">
             <div class = "logo">
                 <a href="<?php echo SITE_URL ?>" class="logo-a">
-                    <img src="images/logo.png" alt="Restaurant Logo" class="img-responsive">
+                    <img height="80px" src="images/logo.png" alt="Restaurant Logo" class="img-responsive">
                 </a>
             </div>
 
