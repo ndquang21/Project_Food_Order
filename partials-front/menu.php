@@ -2,9 +2,10 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <!-- Start EasyChatGPT -->
 <script src="https://widget.easychatgpt.io/dist/widget/main.js"></script>
-<script>window.EasyChatGPT.init({"handle":"quangn21site"})</script>
+<script>window.EasyChatGPT.init({"handle":"quangn21site-y9b"})</script>
 <!-- End EasyChatGPT -->
 
 <head>
